@@ -1,0 +1,30 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw datasets and downloaded archives
+data/raw/
+*.zip
+
+# Temporary files
+*.log
+*.tmp
+
+# Temporary GDELT test datasets
+data/processed/gdelt_monthly_test.csv
+data/processed/gdelt_us_iran_conflicts_test.csv
